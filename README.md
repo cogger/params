@@ -1,4 +1,4 @@
-# gae [![GoDoc](https://godoc.org/github.com/cogger/gae?status.png)](http://godoc.org/github.com/cogger/gae)
+# params [![GoDoc](https://godoc.org/github.com/cogger/params?status.png)](http://godoc.org/github.com/cogger/params)
 
 params addes generic way to get params associated with a request
 
