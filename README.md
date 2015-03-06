@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"log"
 	"github.com/cogger/cogger"
-	"github.com/cogger/params"
-	"github.com/cogger/params/gorilla"
+	"github.com/cogger/paramscontext"
+	"github.com/cogger/paramscontext/gorilla"
 	"golang.org/x/net/context"
 	"github.com/gorilla/mux"
 )
@@ -25,7 +25,7 @@ func foo(ctx context.Context, w http.ResponseWriter, r *http.Request) int{
 
 func main() {
 	fooHandler := cogger.NewHandler()
-	fooHandler.AddContext(params.Add(gorrilla.Mapper))
+	fooHandler.AddContext(paramscontext.Add(gorrilla.Mapper))
 	fooHandler.SetTimeout(3 * time.Second)
 	fooHandler.SetHandler(foo)
 
