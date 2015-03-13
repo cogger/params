@@ -1,4 +1,4 @@
-package paramscontext
+package params
 
 import (
 	"errors"
