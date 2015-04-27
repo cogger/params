@@ -1,4 +1,8 @@
-# params [![GoDoc](https://godoc.org/github.com/cogger/params?status.png)](http://godoc.org/github.com/cogger/params)
+# params 
+
+**Documentation:** [![GoDoc](https://godoc.org/github.com/cogger/params?status.png)](http://godoc.org/github.com/cogger/params)  
+**Build Status:** [![Build Status](https://travis-ci.org/cogger/params.svg?branch=master)](https://travis-ci.org/cogger/params)  
+**Test Coverage:** [![Coverage Status](https://coveralls.io/repos/cogger/params/badge.svg?branch=master)](https://coveralls.io/r/cogger/params?branch=master)
 
 params addes generic way to get params associated with a request
 
