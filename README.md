@@ -1,9 +1,9 @@
 # params 
 
-**Documentation:** [![GoDoc](https://godoc.org/github.com/cogger/params?status.png)](http://godoc.org/github.com/cogger/params)  
-**Build Status:** [![Build Status](https://travis-ci.org/cogger/params.svg?branch=master)](https://travis-ci.org/cogger/params)  
-**Test Coverage:** [![Coverage Status](https://coveralls.io/repos/cogger/params/badge.svg?branch=master)](https://coveralls.io/r/cogger/params?branch=master)  
-**License:**       [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![GoDoc](https://godoc.org/github.com/cogger/params?status.png)](http://godoc.org/github.com/cogger/params)  
+[![Build Status](https://travis-ci.org/cogger/params.svg?branch=master)](https://travis-ci.org/cogger/params)  
+[![Coverage Status](https://coveralls.io/repos/cogger/params/badge.svg?branch=master)](https://coveralls.io/r/cogger/params?branch=master)  
+[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 
 params addes generic way to get params associated with a request
