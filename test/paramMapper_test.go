@@ -1,10 +1,8 @@
-package test_test
+package test
 
 import (
 	"bytes"
 	"net/http"
-
-	. "github.com/cogger/params/test"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

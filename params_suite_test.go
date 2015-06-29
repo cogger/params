@@ -1,4 +1,4 @@
-package params_test
+package params
 
 import (
 	. "github.com/onsi/ginkgo"

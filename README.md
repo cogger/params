@@ -1,12 +1,20 @@
 # params 
 
-[![GoDoc](https://godoc.org/github.com/cogger/params?status.png)](http://godoc.org/github.com/cogger/params)  
+[![GoDoc](https://godoc.org/gopkg.in/cogger/params.v1?status.png)](http://godoc.org/gopkg.in/cogger/params.v1)  
 [![Build Status](https://travis-ci.org/cogger/params.svg?branch=master)](https://travis-ci.org/cogger/params)  
 [![Coverage Status](https://coveralls.io/repos/cogger/params/badge.svg?branch=master)](https://coveralls.io/r/cogger/params?branch=master)  
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 
 params addes generic way to get params associated with a request
+
+## Installation
+
+The import path for the package is *gopkg.in/cogger/params.v1*.
+
+To install it, run:
+
+    go get gopkg.in/cogger/params.v1
 
 ## Usage
 ~~~ go
@@ -17,8 +25,8 @@ import (
 	"net/http"
 	"log"
 	"gopkg.in/cogger/cogger.v1"
-	"github.com/cogger/params"
-	"github.com/cogger/params/gorilla"
+	"gopkg.in/cogger/params.v1"
+	"gopkg.in/cogger/params.v1/gorilla"
 	"golang.org/x/net/context"
 	"github.com/gorilla/mux"
 )

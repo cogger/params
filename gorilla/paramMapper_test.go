@@ -1,11 +1,10 @@
-package gorilla_test
+package gorilla
 
 import (
 	"bytes"
 	"net/http"
 	"net/http/httptest"
 
-	. "github.com/cogger/params/gorilla"
 	"github.com/gorilla/mux"
 
 	. "github.com/onsi/ginkgo"

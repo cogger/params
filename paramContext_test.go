@@ -1,10 +1,9 @@
-package params_test
+package params
 
 import (
 	"bytes"
 	"net/http"
 
-	. "github.com/cogger/params"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"golang.org/x/net/context"

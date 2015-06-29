@@ -1,4 +1,4 @@
-package gorilla_test
+package gorilla
 
 import (
 	. "github.com/onsi/ginkgo"
